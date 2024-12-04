@@ -1,0 +1,60 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+.site-footer {
+    box-shadow: 0 0 5px 0.2px rgba(0, 0, 0, 0.5) inset;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 7vh;
+    padding: 20px;
+}
+
+.site-footer p{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(122, 12, 12);
+    text-align: center;
+    padding:0.5em;
+    margin-right: 1em;
+    border-right: 1px solid saddlebrown;
+}
+.site-footer ul {
+    display: flex;
+    gap: 1em;
+    flex-grow: 1;
+}
+
+.site-footer li {
+    list-style: none;
+    box-shadow: 0 0 5px 0.2px rgba(0, 0, 0, 0.5) inset;
+    padding: 0.5em 0.89em;
+    border-radius: 15px;
+}
+
+.site-footer a {
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #e8e5e5f2;
+    transform: translate(0, 100%);
+}
+
+.site-footer i {
+    font-size: 1.5em;
+    color: rgb(36, 3, 3);;
+}
+
+.site-footer .blue:hover {
+    color: blue;
+}
+
+.site-footer .gree:hover {
+    color: #0d0d30;
+}
+
+.site-footer .blue_m:hover {
+    color: #1c9fd1;
+}
+
+.site-footer .red:hover {
+    color: #e92d2d;
+}
