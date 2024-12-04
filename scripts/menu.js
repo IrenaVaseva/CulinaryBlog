@@ -1,6 +1,6 @@
 function OpenLinks(str) {
     if (str == "home") {
-        document.getElementById("Links").setAttribute("src", "../pages/home-page.html");
+        document.getElementById("Links").setAttribute("src", "./pages/home-page.html");
     }
 
     if (str == "salads") {
@@ -19,6 +19,6 @@ function OpenLinks(str) {
     }
 
     if (str == "about") {
-        document.getElementById("Links").setAttribute("src", "../pages/about.html");
+        document.getElementById("Links").setAttribute("src", "./pages/about.html");
     }
 }
