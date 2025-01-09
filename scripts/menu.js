@@ -4,7 +4,7 @@ function OpenLinks(str) {
     }
 
     if (str == "salads") {
-        document.getElementById("Links").setAttribute("src", "");
+        document.getElementById("Links").setAttribute("src", "./pages/salads.html");
     }
 
     if (str == "main-meal") {

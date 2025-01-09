@@ -1,0 +1,78 @@
+/*--------------*/
+.bgRecipes {
+    box-sizing: border-box;
+    background-color: rgb(250, 240, 230);
+    background-image: url("../images/background2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 3px solid brown;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.card,
+.media,
+.info {
+    position: relative;
+}
+
+.media:before {
+    display: block;
+    content: '';
+}
+
+.card {
+    display: inline-block;
+    position: center;
+    width: 30%;
+
+    background-color: rgb(250, 240, 230);
+    border-radius: 5px;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5em;
+    border: 5px solid blue;
+}
+
+.card img {
+    position: absolute;
+}
+
+.info {
+    padding: 20px;
+    text-align: right;
+    text-decoration: none;
+    transform: translate(0, 100%);
+    background: #fff;
+}
+
+.content-recipe {
+    display:none;
+    text-align: left;
+    padding-bottom: 1em;
+
+}
+
+.readMore {
+    display:inline-block;
+    text-decoration: none;
+    background: brown;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin:5px;
+    border-radius: 0.5em;
+}
+
+/* *** */
+li {
+    min-width: 18rem;
+    max-width: 25rem;
+    display: inline-block;
+    background-color: #fff;
+    border: 0.4rem solid brown;
+    padding: 1rem;
+    vertical-align: top;
+    margin: 0.5rem;
+}
