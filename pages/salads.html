@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,40 +9,97 @@
     <link rel="stylesheet" href="../styles/typography.css">
     <link rel="stylesheet" href="../styles/recipes.css">
 </head>
+
 <body>
     <div class="bgRecipes">
-        <ul>
-            <li>
-                <div class="media">
-                    <img src="../images/salads/kapreze.jpg" alt="kapreze">
-                </div>
-                <div>
-                    <h2>Салата "Капрезе"</h2>
-                    <a href="#" class="readMore">Виж рецептата</a>
-                    <p class="content-recipe">Short description of what this is all about - crafted to make people interested</p>
+        <ul id="recipes">
+            <li class="liRecipe">
+                <div class="card">
+                    <div class="media">
+                        <img src="../images/salads/kapreze.jpg" alt="kapreze">
+                    </div>
+                    <div>
+                        <h2>Салата "Капрезе"</h2>
+                        <a href="#" class="readMore" data-name="kapreze">Виж рецептата</a>
+                        <div class="content-recipe" data-name="kapreze">
+                            <h5>Продукти:</h5>
+                            <ul>
+                                <li>Домати</li>
+                                <li>Бяла моцарела</li>
+                                <li>Песто "Дженовезе"</li>
+                                <li>Зехтин Extra virgin</li>
+                                <li>Сол</li>
+                            </ul>
+                            <p>
+                                Доматите и моцарелата се нарязват на шайби с дебелина 1 см. Подреждат се в следната
+                                последователност: домата, моцарела, лъжичка песто, посолват се и се заливат с зехтин.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </li>
-            <li>
-                <div class="media">
-                    <img src="../images/salads/Kartofena_salata.jpg" alt="Kartofena_salata">
-                </div>
-                <div>
-                    <h2>Картофена салата</h2>
-                    <a href="#" class="readMore">Виж рецептата</a>
-                    <p class="content-recipe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore saepe sunt deleniti expedita consequatur cumque similique officiis? Ipsa quisquam voluptatibus suscipit rerum repudiandae eius fugit, voluptatem eum aliquam eveniet voluptates.</p>
+            <li class="liRecipe">
+                <div class="card">
+                    <div class="media">
+                        <img src="../images/salads/Kartofena_salata.jpg" alt="kartofena_salata">
+                    </div>
+                    <div>
+                        <h2>Картофена салата</h2>
+                        <a href="#" class="readMore" data-name="kartofena_salata">Виж рецептата</a>
+                        <div class="content-recipe" data-name="kartofena_salata">
+                            <h5>Продукти:</h5>
+                            <ul>
+                                <li>1 кг картофи, сварени</li>
+                                <li>1 глава червен лук</li>
+                                <li>1 връзка пресен лук</li>
+                                <li>100 гр. маслини</li>
+                                <li>1 бурканче каперси</li>
+                                <li>сол</li>
+                                <li>Зехтин Extra virgin (олио)</li>
+                                <li>оцет</li>
+                            </ul>
+                            <p>
+                                Картофите, червения лук, пресния лук и маслините се нарязват. Всичко се смесва добре и
+                                се овкусява.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </li>
-            <li>
-                <div class="media">
-                    <img src="../images/salads/yankina-salata.jpg" alt="yankina-salata">
-                </div>
-                <div>
-                    <h2>Янкина салата</h2>
-                    <a href="#" class="readMore">Виж рецептата</a>
-                    <p class="content-recipe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore saepe sunt deleniti expedita consequatur cumque similique officiis? Ipsa quisquam voluptatibus suscipit rerum repudiandae eius fugit, voluptatem eum aliquam eveniet voluptates.</p>
+            <li class="liRecipe">
+                <div class="card">
+                    <div class="media">
+                        <img src="../images/salads/yankina-salata.jpg" alt="yankina_salata">
+                    </div>
+                    <div>
+                        <h2>Янкина салата</h2>
+                        <a href="#" class="readMore" data-name="yankina_salata">Виж рецептата</a>
+                        <div class="content-recipe" data-name="yankina_salata">
+                            <h5>Продукти:</h5>
+                            <ul>
+                                <li>1 кг картофи, сварени</li>
+                                <li>200 гр. настъргано сирене</li>
+                                <li>5-6 кисели краставички</li>
+                                <li>2 скилидки чесън</li>
+                                <li>200 гр. майонеза</li>
+                                <li>3-4 с.л. заквасена сметана</li>
+                                <li>1 връзка копър</li>
+                                <li>3 сварени яйца</li>
+                                <li>червен пипер, черен пипер</li>
+                                <li>сол</li>
+                            </ul>
+                            <p>
+                                Картофите се настъргват и се овкусяват със сол и черен пипер. Оформят се за основа.<br>
+                                Сиренето, нарязаните краставички, чесън и копър се объркват със сиренето, майонезата и сметаната. Изсипват се
+                                върху картофената основа. Отгоре се настъргват яйцата и се поръсва с червен пипер.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </li>
         </ul>
     </div>
+    <script src="../scripts/recipes.js"></script>
 </body>
+
 </html>
