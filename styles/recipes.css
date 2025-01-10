@@ -13,8 +13,8 @@
 
 /* ------- */
 .liRecipe {
-    min-width: 18rem;
-    max-width: 25rem;
+    min-width: 16rem;
+    max-width: 22rem;
     display: inline-block;
     background-color: #fff;
     border: 0.4rem solid brown;
@@ -75,6 +75,7 @@
 .content-recipe p {
     text-indent: 1em;
     padding: 0 0.5em;
+    text-align: justify;
 }
 
 .readMore {
