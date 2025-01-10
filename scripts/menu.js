@@ -7,8 +7,8 @@ function OpenLinks(str) {
         document.getElementById("Links").setAttribute("src", "./pages/salads.html");
     }
 
-    if (str == "main-meal") {
-        document.getElementById("Links").setAttribute("src", "");
+    if (str == "meals") {
+        document.getElementById("Links").setAttribute("src", "./pages/meals.html");
     }
 
     if (str == "baked") {
