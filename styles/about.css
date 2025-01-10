@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Marck Script";
+    src: url("../fonts/MarckScript-Regular.ttf"), local("../fonts/MarckScript-Regular.ttf") format("ttf");
+}
+
+html {
+    font: 20px/1.5 "Marck Script";
+    font-weight: bold;
+    color: rgb(122, 12, 12);
+}
+
+/*--------------*/
+.bgAbout {
+    box-sizing: border-box;
+    background-color: rgb(250, 240, 230);
+    background-image: url("../images/background4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 3px solid brown;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.media {
+    float: inline-end;
+    margin: 0 auto;
+    text-align: justify;
+    width: 10em;
+    right: 10%;
+    padding: 0.5em;
+}
+
+.info {
+    padding: 1em;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+.info>h2 {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+
+    .content {
+        width: 80%;
+    }
+}

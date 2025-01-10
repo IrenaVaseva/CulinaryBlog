@@ -18,7 +18,7 @@
     display: inline-block;
     background-color: #fff;
     border: 0.4rem solid brown;
-    vertical-align: middle;
+    vertical-align: top;
     margin: 0.5rem;
     border-radius: 5px;
     box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.8);
@@ -29,7 +29,7 @@
     position: relative;
     margin: 0 auto;
     text-align: center;
-    /* height: 28em; */
+    height: 26em;
     /*border: 5px solid green;*/
 }
 
@@ -44,6 +44,7 @@
     text-align: center;
     margin: 0 auto;
     padding: 0.5em;
+    background: rgba(248, 248, 241, 0.8);
 }
 
 .content {
