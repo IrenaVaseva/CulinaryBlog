@@ -12,10 +12,10 @@ function OpenLinks(str) {
     }
 
     if (str == "baked") {
-        document.getElementById("Links").setAttribute("src", "");
+        document.getElementById("Links").setAttribute("src", "./pages/bakary.html");
     }
     if (str == "desserts") {
-        document.getElementById("Links").setAttribute("src", "");
+        document.getElementById("Links").setAttribute("src", "./pages/deserts.html");
     }
 
     if (str == "about") {

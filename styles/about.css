@@ -41,7 +41,7 @@ html {
 }
 
 .info {
-    padding: 1em;
+    padding: 0.5em;
     text-align: justify;
     text-indent: 1em;
 }
@@ -61,16 +61,32 @@ html {
 }
 
 .contacts {
+    display: inline-block;
     text-align: right;
+    margin-top: 1em;
 }
+
+
+.contacts div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
 @media (max-width: 600px) {
     .contacts {
+        text-align: center;
+    }
+
+    .contacts div {
+        display: block;
         text-align: center;
     }
 }
 
 .mail {
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 .maps {

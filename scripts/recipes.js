@@ -9,6 +9,7 @@ function openRecipe(nameElement) {
     if (textA.toUpperCase() == 'ВИЖ РЕЦЕПТАТА') {
         divContentRecipe.style.display = 'block';
         aContentElement.textContent = 'Скрий';
+        liElement.style.display = 'block';
     } else if (textA.toUpperCase() == 'СКРИЙ') {
         divContentRecipe.style.display = 'none';
         aContentElement.textContent = 'Виж рецептата';
@@ -16,9 +17,10 @@ function openRecipe(nameElement) {
 }
 
 ulElement.addEventListener('click', function (event) {
+    //console.dir(ulElement.firstElementChild);
     const recipeName = event.target.attributes['data-name'].value;
 
-    if ((event.target.nodeName === 'A') && (event.target.className === 'readMore')){
+    if ((event.target.nodeName === 'A') && (event.target.className === 'readMore')) {
         openRecipe(recipeName);
     }
 })
