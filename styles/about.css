@@ -4,6 +4,7 @@
 }
 
 html {
+    box-sizing: border-box;
     font: 20px/1.5 "Marck Script";
     font-weight: bold;
     color: rgb(122, 12, 12);
@@ -57,4 +58,23 @@ html {
     .content {
         width: 80%;
     }
+}
+
+.contacts {
+    text-align: right;
+}
+@media (max-width: 600px) {
+    .contacts {
+        text-align: center;
+    }
+}
+
+.mail {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.maps {
+    width: 20em;
+    height: 12em;
+    border: 2px solid brown;
 }
