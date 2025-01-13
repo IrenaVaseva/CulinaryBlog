@@ -42,20 +42,20 @@
     justify-content: center;
     background-size: cover;
     align-items: center;
-    padding: 1em;
+    padding: 0.4em;
 }
 
 /*-------------*/
 .site-title {
     box-shadow: 0 0 5px 0.2px rgba(0, 0, 0, 0.5) inset;
     border-radius: 15px;
-    padding: 0.6em;
+    padding: 0.4em;
 }
 
 .site-title a {
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     overflow: hidden;
     text-indent: -100vw;
     background-image: url('../images/logoID.png');
@@ -71,22 +71,22 @@
     font-weight: bold;
     color: rgb(122, 12, 12);
     text-align: center;
-    padding: 0 0.5em;
+    padding: 0 0.4em;
 }
 
 /*-------------*/
 .menu-header {
     margin: 0 auto;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
 }
 
 .menu-header nav,
 .menu-header nav ul {
     display: flex;
-
 }
 
 .menu-header nav {
+    display: none;
     justify-content: center;
 }
 
@@ -94,12 +94,6 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
-}
-
-@media (max-width: 600px) {
-    .menu-header nav ul {
-        flex-direction: column;
-    }
 }
 
 .menu-header nav li {
@@ -117,12 +111,27 @@
     color: rgb(122, 12, 12);
 }
 
+.mobile-menu {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .menu-header nav ul {
+        flex-direction: column;
+    }
+ 
+    #imgMenu {
+        src: "./images/menu_icon.svg";
+    }
+}
+
 /*--------------*/
 #content {
     display: flex;
     position: relative;
     min-width: 70vh;
-    min-height: 70vh;
+    min-height: 75vh;
     text-align: center;
     box-sizing: border-box;
 }
@@ -135,6 +144,7 @@
         max-height: 100vh;
     }
 }
+
 .section {
     top: 0;
     left: 0;
